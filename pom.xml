@@ -35,6 +35,10 @@
 			<id>maven</id>
 			<url>https://repo1.maven.org/maven2/</url>
 		</repository>
+		<repository>
+			<id>mythic-dist</id>
+			<url>https://mvn.lumine.io/repository/maven-public/</url>
+		</repository>
 	</repositories>
 	<dependencies>
 		<dependency>
@@ -44,7 +48,7 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.spigotmc......</groupId>
+			<groupId>org.spigotmc.......</groupId>
 			<artifactId>spigot</artifactId>
 			<version>1.20-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
@@ -104,13 +108,19 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>io.lumine</groupId>
+			<groupId>io.lumine..</groupId>
+			<artifactId>Mythic-Dist</artifactId>
+			<version>5.2.3</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.lumine.</groupId>
 			<artifactId>Mythic-Dist</artifactId>
 			<version>5.0.2-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>io.lumine.</groupId>
+			<groupId>io.lumine</groupId>
 			<artifactId>Mythic-Dist</artifactId>
 			<version>4.14.2-SNAPSHOT</version>
 			<scope>provided</scope>

@@ -363,7 +363,6 @@ public class MultiVersion {
 			listParse = new ListParse119R3();
 			primitiveParse = new PrimitiveParse119R3();
 			spawnerLightRule = new SpawnerLightRule119R3();
-		}
 		
 		} else if (Main.version == Version.V1_20_R1) {
 			getNBTTagCompound = new GetNBTTagCompound120R1();
